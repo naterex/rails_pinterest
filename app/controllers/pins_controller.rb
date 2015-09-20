@@ -40,11 +40,11 @@ class PinsController < ApplicationController
   private
 
   def find_pin
-    @pin = Pin.find_by(params[:id])
+    @pin = Pin.find(params[:id])
   end
 
   def pin_params
-    params.require(:pin).permit(:title, :description)
+    params.require(:pin).permit(:title, :description, :image)
   end
 
 end
