@@ -20,4 +20,3 @@ The app layout adjusts depending on the client viewport size.
   - Devise (user signup and login)
   - Masonry (responsive layout that adjusts with viewport size)
   - Acts_as_votable (allowing records to be votable)
-  - Cocoon (nested forms)
