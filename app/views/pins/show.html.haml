@@ -16,3 +16,6 @@
             .btn-group.pull-right
               = link_to "Edit", edit_pin_path, class: "btn btn-success"
               = link_to "Delete", pin_path, method: :delete, data: { confirm: 'Are you sure?'}, class: "btn btn-danger"
+        .row
+          .col-md-2.col-centered
+            = link_to "Back", root_path, class: "btn btn-default"
