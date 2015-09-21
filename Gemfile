@@ -28,7 +28,8 @@ gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.3.1'
 # JQuery Masonry ready for use with Rails asset pipeline
 gem 'masonry-rails', '~> 0.2.4'
-
+# Rails gem to allowing records to be votable
+gem 'acts_as_votable', '~> 0.10.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
